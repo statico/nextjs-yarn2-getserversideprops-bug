@@ -1,5 +1,9 @@
 # Yarn 2 & `getServerSideProps` props test case
 
+## What is this?
+
+Returning `{notFound: true}` in a page's [`getServerSideProps`](https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering) in Next.js while using Yarn 2 results in the page never loading.
+
 ## Prerequisites
 
 - Node 15.13.0
